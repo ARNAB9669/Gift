@@ -1,3 +1,4 @@
+
 * {
 
     padding: 0;
@@ -9,76 +10,81 @@
     body {
         background-image: url(stars.jpeg);
         overflow: hidden;
+        background-size: contain;
+        
     }
 
-    .img {
-        width: 103vw;
-        height: 110vh;
-        object-fit: contain;
-        position: absolute;
-        object-position: bottom;
-
-    }
+    
 
     .box {
         
         text-align: center;
         color: aliceblue;
         position: relative;
-        height: 60px;
-        width: 70px;
-        background-color: black;
         flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        
 
     }
+    
     h1{
         font-size: 20px;
         position: relative;
-        top: 38px;
+        
     }
-    .box_1 {
-        height: 150px;
-        width: 145px;
-        top: 20vh;
-        left: 9.6vw;
-        border-radius: 50%;
-    }
-
-    .box_2 {
-        height: 116px;
-        width: 120px;
-        top: 32vh;
-        left: 5vw;
-        border-radius: 50%;
-    }
-
-    .box_3 {
-        height: 116px;
-        width: 120px;
-        top: 42vh;
-        left: 8vw;
-        border-radius: 50%;
-    }
-
-    .box_4 {
-        height: 116px;
-        width: 120px;
-        top: -28vh;
-        left: 64vw;
-        border-radius: 50%;
-    }
-
-    .box_5 {
-        height: 116px;
-        width: 120px;
-        top: -15vh;
-        left: 64vw;
-        border-radius: 50%;
-    }
+    
     .cake{
-        height: 152px;
-        width: 145px;
+        position: relative;
+        aspect-ratio: 5/5;
+        width: 30%;
+        top: 4vh;
+        left: -90px;
         border-radius: 50%;
+    }
+    .box_2{
+        background-color: black;
+        aspect-ratio: 5/3;
+        width: 30%;
+        text-align: center;
+        align-items: center;
+        border-radius: 25px;
+        position: relative;
+        left: 60vw;
+        top: -60px;
+    }
+    .box_3{
+        background-color: black;
+        aspect-ratio: 5/3;
+        width: 30%;
+        text-align: center;
+        align-items: center;
+        border-radius: 25px;
+        position: relative;
+        left: 60vw;
+        top: -10px;
+    }
+    .box_4{
+        background-color: black;
+        aspect-ratio: 5/3;
+        width: 30%;
+        text-align: center;
+        align-items: center;
+        border-radius: 25px;
+        position: relative;
+        left: 10vw;
+        top: -10px;
+    }
+    .box_5{
+        background-color: black;
+        aspect-ratio: 5/3;
+        width: 30%;
+        text-align: center;
+        align-items: center;
+        border-radius: 25px;
+        position: relative;
+        left: 50vw;
+        top: 40px;
     }
     .N{
         position: relative;
