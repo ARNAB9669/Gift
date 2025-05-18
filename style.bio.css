@@ -24,7 +24,7 @@
         
         text-align: center;
         color: aliceblue;
-        position: relative;
+        position: fixed;
         height: 60px;
         width: 70px;
         background-color: black;
