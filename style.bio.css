@@ -24,9 +24,10 @@
         flex-shrink: 0;
         display: flex;
         justify-content: center;
-        
-
+        border: 5px solid white;
+        border-radius: px;
     }
+    
     
     h1{
         font-size: 20px;
@@ -39,56 +40,25 @@
         aspect-ratio: 5/5;
         width: 30%;
         top: 4vh;
-        left: -90px;
+        left: 60px;
         border-radius: 50%;
     }
-    .box_2{
-        background-color: black;
-        aspect-ratio: 5/3;
-        width: 30%;
-        text-align: center;
-        align-items: center;
-        border-radius: 25px;
+    .parent{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
         position: relative;
-        left: 60vw;
-        top: -60px;
-    }
-    .box_3{
+        width: 50vw;
+        height: 15vh;
+        top: 40vh;
+        left: 45vw;
         background-color: black;
-        aspect-ratio: 5/3;
-        width: 30%;
-        text-align: center;
-        align-items: center;
-        border-radius: 25px;
-        position: relative;
-        left: 60vw;
-        top: -10px;
-    }
-    .box_4{
-        background-color: black;
-        aspect-ratio: 5/3;
-        width: 30%;
-        text-align: center;
-        align-items: center;
-        border-radius: 25px;
-        position: relative;
-        left: 10vw;
-        top: -10px;
-    }
-    .box_5{
-        background-color: black;
-        aspect-ratio: 5/3;
-        width: 30%;
-        text-align: center;
-        align-items: center;
-        border-radius: 25px;
-        position: relative;
-        left: 50vw;
-        top: 40px;
     }
     .N{
         position: relative;
         padding: 20px;
+        top: 30vh;
+        left: -30vw;
     }
     .name{
         position: relative;
