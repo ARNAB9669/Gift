@@ -17,16 +17,10 @@ function updateAge() {
         years--;
         months += 12;
     }
-
-    const diffInSeconds = Math.floor((now - birthDate) / 1000);
-
     // Update corresponding divs
-    document.getElementById("Year").innerHTML = `<h1><b>${years}</b> Years</h1>`;
-    document.getElementById("Month").innerHTML = `<h1><b>${months}</b> Months</h1>`;
-    document.getElementById("Date").innerHTML = `<h1><b>${days}</b> Days</h1>`;
-    document.getElementById("Second").innerHTML = `<h1><b>${diffInSeconds.toLocaleString()}</b> Seconds</h1>`;
+    document.getElementById("Year").innerHTML = `<h1>Totral--<b>${years}</b> Years</h1>`;
+    document.getElementById("Month").innerHTML = `<h1> Total-- <b>${months}</b> Months</h1>`;
+    document.getElementById("Date").innerHTML = `<h1> Total-- <b>${days}</b> Days</h1>`;
+    
 }
-
-// Update every second
-setInterval(updateAge, 1000);
 updateAge();
