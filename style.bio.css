@@ -6,7 +6,7 @@
 
 }
 
-@media(max-width:500px) {
+@media(max-width:1024px) {/*Thia is broken*/
     body {
         background-image: url(stars.jpeg);
         overflow: hidden;
@@ -40,25 +40,27 @@
         aspect-ratio: 5/5;
         width: 30%;
         top: 4vh;
-        left: 60px;
+        left: 80px;
         border-radius: 50%;
     }
     .parent{
+
         justify-content: center;
         display: flex;
         flex-direction: column;
         position: relative;
-        width: 50vw;
-        height: 15vh;
+        width: 60vw;
+        height: 17vh;
         top: 40vh;
-        left: 45vw;
+        left: 30vw;
         background-color: black;
+        
     }
     .N{
         position: relative;
         padding: 20px;
         top: 30vh;
-        left: -30vw;
+        left: -26vw;
     }
     .name{
         position: relative;
