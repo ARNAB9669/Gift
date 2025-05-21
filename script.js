@@ -18,7 +18,7 @@ function updateAge() {
         months += 12;
     }
     // Update corresponding divs
-    document.getElementById("Year").innerHTML = `<h1>Totral--<b>${years}</b> Years</h1>`;
+    document.getElementById("Year").innerHTML = `<h1>Total--<b>${years}</b> Years</h1>`;
     document.getElementById("Month").innerHTML = `<h1> Total-- <b>${months}</b> Months</h1>`;
     document.getElementById("Date").innerHTML = `<h1> Total-- <b>${days}</b> Days</h1>`;
     
